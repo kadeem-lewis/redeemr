@@ -5,6 +5,6 @@ export const EXTERNAL_LINKS = {
   blueskyUrl: "https://bsky.app/profile/redeemr.bsky.social",
   discordInviteLink: "https://discord.gg/PwAJX7tbzR",
   tiktokUrl: "https://www.tiktok.com/@redeemr",
-  reddit: "https://www.reddit.com/r/redeemr/",
-  instagram: "https://www.instagram.com/redeemryt/",
+  redditUrl: "https://www.reddit.com/r/redeemr/",
+  instagramUrl: "https://www.instagram.com/redeemryt/",
 } as const;
