@@ -4,9 +4,21 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
-  modules: ["@nuxt/eslint", "@nuxt/ui"],
+  modules: ["@nuxt/eslint", "@nuxt/ui", "@nuxt/image"],
   css: ["~/assets/css/main.css"],
   vite: { plugins: [tailwindcss()] },
+  icon: {
+    provider: "server",
+    customCollections: [
+      {
+        prefix: "my-icon",
+        dir: "./app/assets/svgs",
+      },
+    ],
+  },
+  fonts: {
+    provider: "bunny",
+  },
   devServer: {
     port: 3001,
   },
