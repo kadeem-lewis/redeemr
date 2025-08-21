@@ -8,6 +8,11 @@ const items = ref([
     link: EXTERNAL_LINKS.youtubeUrl,
   },
   {
+    label: "framedle",
+    subtitle: "My wordle-like Warframe guessing game",
+    link: EXTERNAL_LINKS.framedleUrl,
+  },
+  {
     label: "discord",
     subtitle: "Join my discord server",
     link: EXTERNAL_LINKS.discordInviteLink,
@@ -28,12 +33,13 @@ const items = ref([
   <div class="flex flex-col gap-8">
     <div class="text-center text-xl">
       <p>
-        Hey, I'm Redeemr. I'm a software developer who makes Warframe content.
+        Hello world, I'm Redeemr. I'm a software developer ( as you can tell )
+        who makes Warframe content.
       </p>
-      <p>Learn more about me by checking out one of the links below</p>
+      <p>Learn more about me by checking out one of the links below.</p>
     </div>
     <div class="flex justify-center">
-      <div class="flex flex-col gap-8 w-80 justify-center">
+      <div class="flex flex-col gap-8 max-w-80 justify-center">
         <UButton
           v-for="item in items"
           :key="item.label"
