@@ -1,5 +1,6 @@
 export const EXTERNAL_LINKS = {
   youtubeUrl: "https://www.youtube.com/@redeemr",
+  youtubeArchiveUrl: "https://www.youtube.com/@RedeemrArchives",
   framedleUrl: "https://framedle.com",
   twitchUrl: "https://www.twitch.tv/redeemr",
   blueskyUrl: "https://bsky.app/profile/redeemr.bsky.social",
