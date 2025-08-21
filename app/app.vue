@@ -2,6 +2,7 @@
 useSeoMeta({
   title: "Redeemr",
   description: "Home of all things Redeemr",
+  ogDescription: "Home of all things Redeemr",
 });
 </script>
 <template>
