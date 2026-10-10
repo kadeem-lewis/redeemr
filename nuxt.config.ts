@@ -23,6 +23,7 @@ export default defineNuxtConfig({
     port: 3001,
   },
   nitro: {
+    preset: "cloudflare_module",
     prerender: {
       autoSubfolderIndex: false,
     },
