@@ -22,4 +22,9 @@ export default defineNuxtConfig({
   devServer: {
     port: 3001,
   },
+  nitro: {
+    prerender: {
+      autoSubfolderIndex: false,
+    },
+  },
 });
